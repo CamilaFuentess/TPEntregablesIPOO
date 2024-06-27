@@ -1,0 +1,20 @@
+CORECCIONES A APLICAR 
+
+
+*TANTO EN MODIFICAR COMO EN ELIMINAR, PRIMERO BUSCAR Y DESPUES EJECUTAR * EN TODAS LAS CLASES                    //listo 
+
+*AGREGAR EL IDPERSONA (*EL ID SIEMPRE ES LA CLAVE PRIMARIA )                     //listo 
+
+*COMO EL LISTAR YA MUESTRA NO ES NECESARIO EL TOSTRING  
+// EL TOSTRING SI SE USA  para los foreach de lo que muestran los datos generales de las clases  
+
+*TANTO EN MODIFICAR COMO EN INSERTAR BORRAR LOS ID DE AUTOINCREMENT, YA QUE NO SON SOLICITADOS NI PERMITIDOS PARA MODIFICAR       //listo 
+
+//NOTA CON BORRAR EL ID DE LOS AUTOINCREMENT en Insertar : 
+//en el metodo insertar, el id de AUTOINCREMENT no lo pude borrar debido a que me creaba la relacion con la tabla persona.
+//si lo borraba, no creaba la relacion foranea con persona al no insertar el valor 
+PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '','w')' at line 2 in C:\Users\Camila\Desktop\TPFinal\datos\BaseDatos.php:112
+
+//TRATE DE SOLUCIONARLO MODIFICANDO EL CARGAR-INSERTAR-EL COMO AGREGABA LA CLASE, EJECUTAR
+PERO NO FUNCIONABA NADA 
+
